@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+.left-panel {
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-panel {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.message-list {
+    margin-top: 20px;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.select {
+    display: block;
+    align-items: center;
+}
+
+.select-left {
+    flex: 1;
+}
+
+.select-right {
+    flex: 1;
+    position: relative;
+    margin-right: 20%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+/* Style the dropdown options */
+
+select option {
+    background-color: #fff;
+    color: #333;
+}
