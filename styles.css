@@ -86,3 +86,24 @@ select option {
     background-color: #fff;
     color: #333;
 }
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+    /* Adjust as needed */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
