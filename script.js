@@ -21,3 +21,22 @@ function cancel() {
 document.addEventListener("DOMContentLoaded", function() {
     createPieChart();
 });
+
+function createPieChart() {
+    var ctx = document.getElementById('pieChart').getContext('2d');
+    var myPieChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['C-TE', 'C-EX', 'C-IN', 'C-RA'],
+            datasets: [{
+                data: [30, 20, 25, 25],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4CAF50'],
+            }]
+        },
+        options: {
+            responsive: false, // Set to false to prevent automatic resizing
+            maintainAspectRatio: false, // Set to false to allow the canvas to dynamically resize
+            // Add other chart options as needed
+        }
+    });
+}
